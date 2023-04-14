@@ -36,3 +36,4 @@ class Player:
             else:
                 with self.opponent_lock:
                     self.opponent_queue.append(new_value)
+        print("Player {} finished".format(self.name))

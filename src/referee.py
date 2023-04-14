@@ -32,5 +32,6 @@ class Referee:
                     self.player_2_queue.append("STOP")
                     self.player_1_queue.append("STOP")
 
-                print(value)
+                print("Referee: {} won!".format(value["name"]))
                 break
+        print("Referee finished")
